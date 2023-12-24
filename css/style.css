@@ -24870,6 +24870,9 @@ body.dark {
 	.section-b-space-custom {
        padding-top: 80px!important;
     }
+    .product-left-title .slick-custom-arrow li.right-arrow {
+        margin-bottom: -20px!important;			
+    }	
 }
 @media (min-width: 992px) {
     .demo-modal .modal-lg {
@@ -29957,8 +29960,7 @@ body.dark {
     }
     .full-banner .santa-img img {
 		padding-bottom: 35px!important;
-    }	
-	
+    }		
 }
 @media (max-width: 360px) {
     .btn-solid, .btn-outline {
@@ -30202,7 +30204,7 @@ body.dark {
     .gradient-category .gradient-border {
         height: 130px
     }
-	    .full-banner .santa-img {
+	.full-banner .santa-img {
         width: 110px
     }	
 }
@@ -32533,10 +32535,6 @@ body.rtl .account-setting {
 		font-size: 18px;
 		line-height: 25px
 	}
-	.shoes-boots img{
-		width: 10%;
-	}	
-	
 }
 @media (max-width: 577px) {
     .rtl header.left-header .main-menu .menu-left .mobile-logo {
@@ -32717,7 +32715,15 @@ body.rtl .account-setting {
 	    color: #EC0000;
 		font-weight: 800;
 	}	
+	.shoes-boots img {
+    width: 16%;
 }
+}
+@media (max-width: 280px) {
+		.shoes-boots img {
+    width: 24%;
+}
+}	
 
 /*---------------------------------------*/
 
