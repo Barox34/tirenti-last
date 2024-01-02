@@ -2907,8 +2907,8 @@ button.btn.btn-solid:active, button.btn.btn-outline:active {
     opacity: 0.3
 }
 .collection-banner:hover .img-part {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease
 }
@@ -11169,7 +11169,7 @@ header.stickycls {
 .pixelstrap.light-font-menu li > a {
     color: #393230
 }
-.pixelstrap a, .pixelstrap a:hover, .pixelstrap a:active {
+.pixelstrap a, .pixelstrap a:hover, .pixelstrap-active a:active {
     padding-right: 45px;
     color: #222;
     font-size: 16px;
@@ -12751,11 +12751,11 @@ header.stickycls {
     outline: none
 }
 .logo-block img {
-    -webkit-filter: grayscale(100%);
+   /*---* -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.5;
     -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
+    transition: 0.5s ease;/*---*/
     margin: 0 auto
 }
 .logo-block img:focus {
